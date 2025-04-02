@@ -9,6 +9,8 @@
     "start": "next start",
     "eslint": "eslint src/**/*.{j,t}s?(x)",
     "eslint:fix": "eslint src/**/*.{j,t}s?(x) --fix",
+    "stylelint": "stylelint **/*.scss",
+    "stylelint:fix": "stylelint **/*.scss --fix",
     "test": "jest"
   },
   "dependencies": {
@@ -38,6 +40,12 @@
     "jest-environment-jsdom": "^29.7.0",
     "jest-html-reporter": "^4.1.0",
     "sass": "^1.86.0",
+    "stylelint": "^16.17.0",
+    "stylelint-color-format": "^1.1.0",
+    "stylelint-config-idiomatic-order": "^10.0.0",
+    "stylelint-config-standard-scss": "^14.0.0",
+    "stylelint-declaration-block-no-ignored-properties": "^2.8.0",
+    "stylelint-order": "^6.0.4",
     "typescript": "^5",
     "typescript-eslint": "^8.28.0"
   }

@@ -5,6 +5,7 @@
 - SCSS (used as CSS modules)
 - Jest with react-testing-library
 - SVGR (so .svg files can be treated as React components, which is more convenient for styling)
+- Stylelint
 - Eslint
 
 ## More about Eslint plugins
